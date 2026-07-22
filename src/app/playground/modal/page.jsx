@@ -12,8 +12,9 @@ export default function ModalPage() {
         Custom Modal (Dialog)
       </h1>
       <p style={{ color: '#555', marginBottom: '1rem' }}>
-        Implements the W3C Dialog Modal pattern. You need to add: focus trap,
-        Escape key handling, focus restore on close.
+        Fully implements the W3C Dialog Modal pattern — focus trap, Escape,
+        focus restore, backdrop click. Read the source comments for the
+        reasoning you can apply to Tabs &amp; Disclosure.
       </p>
       <button onClick={() => setIsOpen(true)}>
         Open Modal
