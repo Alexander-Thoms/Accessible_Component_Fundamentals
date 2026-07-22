@@ -1,12 +1,5 @@
 'use client'
 
-import { type ReactNode } from 'react'
-
-type DisclosureProps = {
-  summary: string
-  children: ReactNode
-}
-
 //
 // W3C ARIA Disclosure Pattern:
 // https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/
@@ -20,6 +13,6 @@ type DisclosureProps = {
 //   - Content is hidden/shown via a CSS class or hidden attribute
 //   - Focus stays on the button when toggling
 //
-export function Disclosure({ summary, children }: DisclosureProps) {
+export function Disclosure({ summary, children }) {
   return <div>{/* Disclosure */}</div>
 }

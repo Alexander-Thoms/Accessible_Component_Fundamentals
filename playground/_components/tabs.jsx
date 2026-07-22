@@ -1,17 +1,5 @@
 'use client'
 
-import { type ReactNode } from 'react'
-
-type Tab = {
-  id: string
-  label: string
-  content: ReactNode
-}
-
-type TabsProps = {
-  tabs: Tab[]
-}
-
 //
 // W3C ARIA Tabs Pattern (Automatic Activation):
 // https://www.w3.org/WAI/ARIA/apg/patterns/tabs/
@@ -27,6 +15,6 @@ type TabsProps = {
 //   - Keyboard: Left/Right arrows move focus (automatic activation)
 //   - Home key focuses first tab, End key focuses last tab
 //
-export function Tabs({ tabs }: TabsProps) {
+export function Tabs({ tabs }) {
   return <div>{/* Tabs */}</div>
 }
